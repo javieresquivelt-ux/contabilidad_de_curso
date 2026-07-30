@@ -1,3 +1,10 @@
+# Documentación interna del proyecto (solo local, no pública)
+agent.md
+memory.md
+skill.md
+spec.md
+task.md
+
 # OS generated files
 .DS_Store
 .DS_Store?
