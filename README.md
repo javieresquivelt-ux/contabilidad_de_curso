@@ -30,10 +30,7 @@ faby/
 ├── app_pagos.gs          ← Script principal (5 módulos, ~415 líneas)
 ├── MANUAL_TESORERO.md    ← Manual de uso para el tesorero
 ├── README.md             ← Este archivo (documentación técnica)
-├── spec.md               ← Especificaciones funcionales del sistema
-├── agent.md              ← Diseño de módulos (arquitectura de agentes)
-├── memory.md             ← Registro de decisiones y razonamiento técnico
-└── task.md               ← Checklist de desarrollo (todas las etapas)
+
 ```
 
 ---
@@ -127,19 +124,9 @@ flowchart TD
 La planilla `cuotas` tiene una columna `TOTAL ABONOS` que **ya incluye** el saldo histórico del año anterior (`SALDO 2025`). Por esta razón, el script separa ambos valores para presentar un estado de cuenta claro al apoderado:
 
 ```
-Total Pagado en el Año  =  TOTAL ABONOS (en hoja)  −  SALDO 2025
+Total Pagado en el Año  =  TOTAL ABONOS (en hoja)  −  SALDO
 Saldo Final Actual      =  TOTAL ABONOS (en hoja)  −  DEBEN
 ```
-
-**Ejemplo (Alumna N°5 — Astudillo Morales Martina Ignacia):**
-
-| Campo | Valor |
-|---|---|
-| TOTAL ABONOS (en hoja) | $60.086 |
-| SALDO 2025 (arrastre) | $28.086 |
-| DEBEN (deuda) | $0 |
-| **Total Pagado a la Fecha** (en PDF) | **$32.000** (= 60.086 − 28.086) |
-| **Saldo Final Actual** (en PDF) | **$60.086** (= 60.086 − 0) |
 
 ---
 
