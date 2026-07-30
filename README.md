@@ -210,4 +210,4 @@ Consulta [memory.md](./memory.md) para el registro completo de decisiones arquit
 
 ---
 
-*Proyecto desarrollado con Google Apps Script · Versión 1.0 · 2026*
+*Proyecto desarrollado por Javier ESquivel - Google Apps Script · Versión 1.0 · 2026*
