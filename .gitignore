@@ -1,0 +1,33 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de datos y planillas (¡Para proteger los datos personales de los alumnos!)
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# Entornos virtuales y scripts de Python (si se usaron para pruebas locales)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv/
+env/
+
+# Editores de código e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (por si usas clasp de Google Apps Script en el futuro)
+node_modules/
+.clasp.json
